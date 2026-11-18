@@ -1,8 +1,15 @@
 import React from 'react'
+import HomeintroY from '../Components/HomeintroY'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>   
+      <HomeintroY/> 
+
+
+
+   
+    </div>
   )
 }
 

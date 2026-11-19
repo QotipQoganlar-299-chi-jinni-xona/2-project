@@ -144,6 +144,25 @@ const AudioQuality = () => {
                 </div>
 
 
+                <div className="relative w-full min-h-[420px] md:min-h-[500px] rounded-[24px] bg-gradient-to-br from-rose-900 to-purple-950 flex flex-col items-center justify-end text-center text-white pb-[40px] md:pb-[56px] px-[24px] overflow-hidden">
+                    <GiViolin className="absolute top-[30px] text-[180px] md:text-[240px] text-black/15" />
+
+                    <p className="text-[15px] font-semibold mb-[8px] text-white/90">
+                        Apple Music Classical
+                    </p>
+
+                    <h2 className="text-[32px] sm:text-[44px] md:text-[56px] font-bold leading-tight max-w-[650px]">
+                        The definitive
+                        <br />
+                        classical music app.
+                    </h2>
+
+                    <button className="btn btn-circle btn-sm bg-white/80 text-black border-none absolute bottom-[20px] right-[20px]">
+                        <AiOutlinePlus className="text-[18px]" />
+                    </button>
+                </div>
+
+
             </div>
 
         </section >

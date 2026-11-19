@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 import {
   AiFillApple,
   AiOutlineSearch,
@@ -12,13 +12,13 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="text-sm mt-5">
+    <header className="text-sm mt-5 relative bg-white z-50">
       <div className="container mx-auto w-[95%] flex items-center justify-between h-12">
         <Link to="/">
           <AiFillApple className="text-xl" />
         </Link>
 
-        <ul className="hidden md:flex gap-5">
+        <ul className="hidden md:flex gap-5 items-center">
           <li>Store</li>
           <li>Mac</li>
           <li>iPad</li>
@@ -34,6 +34,11 @@ const Header = () => {
           </li>
           <li>Accessories</li>
           <li>Support</li>
+          <li>
+            <Link to="/environment" className="hover:text-gray-500">
+              Environment
+            </Link>
+          </li>
         </ul>
 
         <div className="flex items-center gap-4 text-lg">
@@ -46,7 +51,7 @@ const Header = () => {
       </div>
 
       {open && (
-        <ul className="md:hidden flex flex-col gap-3 p-4">
+        <ul className="md:hidden flex flex-col gap-3 p-4 bg-white border-t">
           <li>Store</li>
           <li>Mac</li>
           <li>iPad</li>
@@ -62,6 +67,11 @@ const Header = () => {
           </li>
           <li>Accessories</li>
           <li>Support</li>
+          <li>
+            <Link to="/environment" onClick={() => setOpen(false)}>
+              Environment
+            </Link>
+          </li>
         </ul>
       )}
     </header>

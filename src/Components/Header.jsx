@@ -18,7 +18,7 @@ const Header = () => {
           <AiFillApple className="text-xl" />
         </Link>
 
-        <ul className="hidden md:flex gap-5 items-center">
+        <ul className="hidden lg:flex gap-5 items-center">
           <li>Store</li>
           <li>Mac</li>
           <li>iPad</li>

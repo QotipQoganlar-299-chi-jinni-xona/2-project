@@ -1,6 +1,7 @@
 import React from "react";
 import SectionMusicX from "../Components/SectionMusicX";
 import MusicOffers from "../Components/MusicOffersX";
+import AudioQuality from "../Components/AudioQualityX";
 
 const MusicX = () => {
   return (
@@ -16,6 +17,8 @@ const MusicX = () => {
 
       <SectionMusicX />
       <MusicOffers/>
+      <AudioQuality/>
+     
     </div>
   );
 };

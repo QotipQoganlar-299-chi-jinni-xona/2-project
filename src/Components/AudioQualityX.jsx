@@ -1,7 +1,7 @@
 import React from "react";
-import { AiOutlinePlus, AiFillApple } from "react-icons/ai";
-import { FaHeadphones, FaHeart, FaCompactDisc, FaFire } from "react-icons/fa";
-import { IoMusicalNotes, IoStar } from "react-icons/io5";
+import { AiOutlinePlus,AiFillApple } from "react-icons/ai";
+import { FaHeadphones, FaHeart, FaCompactDisc, FaFire,FaMicrophoneAlt } from "react-icons/fa";
+import { IoMusicalNotes,IoRadio  } from "react-icons/io5";
 
 const AudioQuality = () => {
     return (
@@ -58,9 +58,33 @@ const AudioQuality = () => {
                         <AiOutlinePlus className="text-[18px]" />
                     </button>
                 </div>
+                <div className="relative w-full min-h-[420px] md:min-h-[520px] rounded-[24px] bg-gradient-to-r from-purple-300 to-pink-500 flex flex-col items-center justify-end text-center text-white pb-[48px] md:pb-[64px] px-[24px] overflow-hidden">
+                   
+                    <FaHeadphones className="absolute top-[40px] left-[30px] md:left-[80px] text-[80px] md:text-[120px] text-white/10 -rotate-12" />
+                    <IoMusicalNotes className="absolute top-[70px] right-[40px] md:right-[120px] text-[70px] md:text-[110px] text-white/10 rotate-12 " />
+                    <FaMicrophoneAlt className="hidden sm:block absolute bottom-[120px] left-[60px] md:left-[140px] text-[75px] md:text-[100px] text-white/10 rotate-6 " />
+                    <FaCompactDisc className="hidden sm:block absolute bottom-[110px] right-[60px] md:right-[140px] text-[85px] md:text-[115px] text-white/10 " />
+                    <IoRadio className="absolute top-[140px] left-1/2 -translate-x-1/2 text-[110px] md:text-[160px] text-white/5 " />
 
+                
+
+                    <p className="relative z-10 text-[14px] md:text-[16px] font-semibold mb-[8px] text-white/90">
+                        Exclusive Content
+                    </p>
+
+                    <h2 className="relative z-10 text-[32px] sm:text-[44px] md:text-[56px] font-bold leading-[1.1] max-w-[600px]">
+                        Unreal access.
+                        <br />
+                        Really only here.
+                    </h2>
+
+                    <button className="btn btn-circle btn-sm md:btn-md bg-white/80 hover:bg-white text-black border-none absolute bottom-[20px] right-[20px] z-10">
+                        <AiOutlinePlus className="text-[18px]" />
+                    </button>
+                </div>
             </div>
-        </section>
+
+        </section >
     );
 };
 

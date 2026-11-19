@@ -1,45 +1,70 @@
 import React, { useState } from "react";
-import { AiFillApple, AiOutlineSearch,AiFillShopping,AiOutlineMenu,AiOutlineClose,} from "react-icons/ai";
-// import { IoChevronForward } from "react-icons/io5";
+import { Link } from "react-router-dom"; 
+import {
+  AiFillApple,
+  AiOutlineSearch,
+  AiFillShopping,
+  AiOutlineMenu,
+  AiOutlineClose,
+} from "react-icons/ai";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div>
+    <header className="text-sm mt-5">
+      <div className="container mx-auto w-[95%] flex items-center justify-between h-12">
+        <Link to="/">
+          <AiFillApple className="text-xl" />
+        </Link>
 
+        <ul className="hidden md:flex gap-5">
+          <li>Store</li>
+          <li>Mac</li>
+          <li>iPad</li>
+          <li>iPhone</li>
+          <li>Watch</li>
+          <li>Vision</li>
+          <li>AirPods</li>
+          <li>TV & Home</li>
+          <li>
+            <Link to="/music" className="hover:text-gray-500">
+              Entertainment
+            </Link>
+          </li>
+          <li>Accessories</li>
+          <li>Support</li>
+        </ul>
 
-      <header className="texst-sm mt-5">
-        <div className="container mx-auto w-[95%] flex items-center justify-between h-12">
-          <AiFillApple className="text-xl cursor-pointer" />
-
-          <ul className="hidden md:flex gap-5">
-            <li className="cursor-pointer hover:text-gray-500">Store</li>
-            <li className="cursor-pointer hover:text-gray-500">Mac</li>
-            <li className="cursor-pointer hover:text-gray-500">iPad</li>
-            <li className="cursor-pointer hover:text-gray-500">iPhone</li>
-            <li className="cursor-pointer hover:text-gray-500">Watch</li>
-            <li className="cursor-pointer hover:text-gray-500">Vision</li>
-            <li className="cursor-pointer hover:text-gray-500">AirPods</li>
-            <li className="cursor-pointer hover:text-gray-500">TV & Home</li>
-            <li className="cursor-pointer hover:text-gray-500">Entertainment</li>
-            <li className="cursor-pointer hover:text-gray-500">Accessories</li>
-            <li className="cursor-pointer hover:text-gray-500">Support</li>
-          </ul>
-
-          <div className="flex items-center gap-4 text-lg">
-            <AiOutlineSearch className="cursor-pointer" />
-            <AiFillShopping className="cursor-pointer" />
-            <button className="md:hidden" onClick={() => setOpen(!open)}>
-              {open ? <AiOutlineClose /> : <AiOutlineMenu />}
-            </button>
-          </div>
+        <div className="flex items-center gap-4 text-lg">
+          <AiOutlineSearch />
+          <AiFillShopping />
+          <button className="md:hidden" onClick={() => setOpen(!open)}>
+            {open ? <AiOutlineClose /> : <AiOutlineMenu />}
+          </button>
         </div>
-      </header>
+      </div>
 
-
-    </div>
-
+      {open && (
+        <ul className="md:hidden flex flex-col gap-3 p-4">
+          <li>Store</li>
+          <li>Mac</li>
+          <li>iPad</li>
+          <li>iPhone</li>
+          <li>Watch</li>
+          <li>Vision</li>
+          <li>AirPods</li>
+          <li>TV & Home</li>
+          <li>
+            <Link to="/music" onClick={() => setOpen(false)}>
+              Entertainment
+            </Link>
+          </li>
+          <li>Accessories</li>
+          <li>Support</li>
+        </ul>
+      )}
+    </header>
   );
 };
 

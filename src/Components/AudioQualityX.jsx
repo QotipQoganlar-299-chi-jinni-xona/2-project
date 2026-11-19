@@ -68,7 +68,7 @@ const AudioQuality = () => {
                         <AiOutlinePlus className="text-[18px]" />
                     </button>
                 </div>
-             
+
                 <div className="relative w-full min-h-[420px] mt-[20px] md:min-h-[480px] rounded-[24px] bg-gray-100 flex flex-col md:flex-row items-center justify-between p-[24px] md:pl-[64px] md:pr-0 gap-[24px] overflow-hidden">
                     <div className="text-center md:text-left">
                         <p className="text-[15px] font-semibold text-gray-500 mb-[8px]">
@@ -104,9 +104,44 @@ const AudioQuality = () => {
                     </button>
                 </div>
 
+                <div className="relative w-full min-h-[420px] md:min-h-[480px] rounded-[24px] bg-gray-100 flex flex-col-reverse md:flex-row items-center justify-around p-[24px] md:p-[48px] gap-[32px] overflow-hidden mt-15">
+                    <div className="relative w-[240px] h-[250px] sm:w-[280px] sm:h-[290px] rounded-[20px] bg-gradient-to-br from-rose-900 to-purple-950 p-[20px] text-white flex flex-col justify-center">
+                        <p className="text-[22px] sm:text-[26px] font-bold leading-tight">
+                            Road Trip
+                            <br />
+                            Playlist
+                        </p>
 
+                        <div className="absolute -top-[16px] right-[16px] w-[75px] h-[75px] rounded-full bg-pink-200 text-pink-700 flex items-center justify-center shadow-md">
+                            <FaUser className="text-[50px]" />
+                        </div>
 
+                        <div className="absolute bottom-[30px] -left-[20px] w-[75px] h-[75px] rounded-full bg-amber-200 text-amber-800 flex items-center justify-center shadow-md">
+                            <FaUser className="text-[50px]" />
+                        </div>
 
+                        <div className="absolute -bottom-[25px] right-[40px] w-[75px] h-[75px] rounded-full bg-blue-200 text-blue-800 flex items-center justify-center shadow-md">
+                            <FaUser className="text-[50px]" />
+                        </div>
+                    </div>
+
+                    <div className="text-center md:text-left">
+                        <p className="text-[15px] font-semibold text-gray-500 mb-[8px]">
+                            Shared Listening
+                        </p>
+                        <h2 className="text-[32px] sm:text-[44px] md:text-[52px] font-bold leading-tight text-rose-600">
+                            Give your
+                            <br />
+                            friendship a
+                            <br />
+                            soundtrack.
+                        </h2>
+                    </div>
+
+                    <button className="btn btn-circle btn-sm bg-gray-300 text-black border-none absolute bottom-[20px] right-[20px]">
+                        <AiOutlinePlus className="text-[18px]" />
+                    </button>
+                </div>
 
 
             </div>

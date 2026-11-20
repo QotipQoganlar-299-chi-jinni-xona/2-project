@@ -1,8 +1,14 @@
 import React from 'react'
+import Fromt from './Fromt'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+
+
+
+
+    </div>
   )
 }
 

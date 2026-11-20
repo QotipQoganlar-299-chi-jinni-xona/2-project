@@ -14,6 +14,7 @@ const App = () => {
       <main>
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/Iphone16' element={<Ossoni />} />
         </Routes>
       </main>
 
@@ -21,7 +22,7 @@ const App = () => {
 
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/MuhammadjonR' element={<Ossoni/>} />
+
       </Routes>
     </div>
   )

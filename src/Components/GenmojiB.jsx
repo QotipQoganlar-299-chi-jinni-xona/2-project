@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Genmoji = () => {
+const GenmojiB = () => {
     return (
         <>
             <div className='max-[100%] w-[85%] mx-auto'>
@@ -74,4 +74,4 @@ const Genmoji = () => {
     )
 }
 
-export default Genmoji
+export default GenmojiB

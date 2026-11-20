@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Great = () => {
+const GreatB = () => {
     return (
         <>
             <div className='max-[100%] w-[85%] mx-auto'>
@@ -46,4 +46,4 @@ const Great = () => {
     )
 }
 
-export default Great
+export default GreatB

@@ -1,5 +1,5 @@
 import React from 'react'
-import Getthehighlights from '../Components/Getthehighlights'
+import Getthehighlights from '../Components/GetthehighlightsB'
 
 const Nbitbil = () => {
   return (

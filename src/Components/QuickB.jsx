@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Quick = () => {
+const QuickB = () => {
     return (
         <>
             <div className='max-[100%] w-[85%] mx-auto'>
@@ -89,4 +89,4 @@ const Quick = () => {
     )
 }
 
-export default Quick
+export default QuickB 

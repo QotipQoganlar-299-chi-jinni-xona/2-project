@@ -1,5 +1,5 @@
 import React from 'react'
-import Even from '../Components/Even'
+import Even from '../Components/EvenB'
 
 const Youllasd = () => {
   return (

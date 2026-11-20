@@ -1,5 +1,5 @@
 import React from 'react'
-import Durable from '../Components/Durable'
+import Durable from '../Components/DurableB'
 
 const Whoui = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import Great from '../Components/Great'
+import Great from '../Components/GreatB'
 
 const Privacyer = () => {
   return (

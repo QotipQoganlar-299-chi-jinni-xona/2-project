@@ -1,6 +1,6 @@
 import React from 'react'
 import img from '../assets/620fd531627b6f3b800be83544b6c24e138734ab.jpg'
-const Even = () => {
+const EvenB = () => {
     return (
         <>
             <div className='max-[100%] w-[85%] mx-auto'>
@@ -98,4 +98,4 @@ const Even = () => {
     )
 }
 
-export default Even
+export default EvenB

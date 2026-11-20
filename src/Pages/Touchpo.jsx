@@ -1,5 +1,5 @@
 import React from 'react'
-import Quick from '../Components/Quick'
+import Quick from '../Components/QuickB'
 
 const Touchpo = () => {
   return (

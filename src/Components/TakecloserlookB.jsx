@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Takecloserlook = () => {
+const TakecloserlookB = () => {
     return (
         <>
             <div className='max-[100%] w-[85%] mx-auto'>
@@ -24,4 +24,4 @@ const Takecloserlook = () => {
     )
 }
 
-export default Takecloserlook
+export default TakecloserlookB

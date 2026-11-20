@@ -1,6 +1,6 @@
 import React from 'react'
 
-const New = () => {
+const NewB = () => {
     return (
         <div>
             <div className="bg-white">
@@ -156,4 +156,4 @@ const New = () => {
     )
 }
 
-export default New
+export default NewB

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const A18 = () => {
+const A18B = () => {
     return (
         <div className='max-[100%] w-[65%] mx-auto'>
             <section className="bg-black text-white">
@@ -28,9 +28,6 @@ const A18 = () => {
                         <span className="font-semibold">Compare with</span>
                         <select className="rounded-full border border-gray-600 bg-black px-3 py-1 text-xs">
                             <option>iPhone 12</option>
-                            <option>iPhone 13</option>
-                            <option>iPhone 14</option>
-                            <option>iPhone 15</option>
                         </select>
                     </div>
 
@@ -52,4 +49,4 @@ const A18 = () => {
     )
 }
 
-export default A18
+export default A18B

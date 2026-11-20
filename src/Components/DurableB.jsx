@@ -1,5 +1,5 @@
 import React from 'react'
-const Durable = () => {
+const DurableB = () => {
     return (
         <div className='max-[100%] w-[85%] mx-auto'>
             <div className=' text-blue-900  font-bold text-4xl flex justify-center'>
@@ -49,4 +49,4 @@ const Durable = () => {
     )
 }
 
-export default Durable
+export default DurableB

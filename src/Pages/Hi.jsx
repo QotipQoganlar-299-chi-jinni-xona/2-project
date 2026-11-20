@@ -1,5 +1,5 @@
 import React from 'react'
-import A18 from '../Components/A18'
+import A18 from '../Components/A18B'
 
 const Hi = () => {
   return (

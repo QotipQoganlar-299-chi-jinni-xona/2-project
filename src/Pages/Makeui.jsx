@@ -1,5 +1,5 @@
 import React from 'react'
-import Genmoji from '../Components/Genmoji'
+import Genmoji from '../Components/GenmojiB'
 
 const Makeui = () => {
   return (

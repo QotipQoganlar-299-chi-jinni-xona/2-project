@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Zoom = () => {
+const ZoomB = () => {
     return (
         <>
 
@@ -35,4 +35,4 @@ const Zoom = () => {
     )
 }
 
-export default Zoom
+export default ZoomB

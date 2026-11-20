@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Getthehighlights = () => {
+const GetthehighlightsB = () => {
   return (
     <>
 
@@ -38,4 +38,4 @@ const Getthehighlights = () => {
   )
 }
 
-export default Getthehighlights
+export default GetthehighlightsB

@@ -1,5 +1,5 @@
 import React from 'react'
-import New from '../Components/New'
+import New from '../Components/NewB'
 
 const Go = () => {
   return (

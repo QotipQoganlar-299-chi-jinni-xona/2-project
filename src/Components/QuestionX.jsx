@@ -205,38 +205,7 @@ const Question = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-gray-100 text-black py-[64px] mt-[60px]">
-                <div className="container mx-auto w-[95%] max-w-[720px] flex flex-col items-center text-center">
-                    <div className="bg-rose-600 text-white p-[12px] rounded-[14px] mb-[16px]">
-                        <IoMusicalNotes className="text-[28px]" />
-                    </div>
-
-                    <h2 className="text-[28px] md:text-[36px] font-bold mb-[16px]">
-                        Working with Apple Music.
-                    </h2>
-
-                    <p className="text-[14px] md:text-[15px] text-gray-600 leading-relaxed mb-[20px]">
-                        Apple Music supports artists with tools to create, release, promote,
-                        and measure music across a global stage. Get fans excited for your
-                        latest release with beautiful, customizable social assets. Celebrate
-                        big moments for plays, Shazams, and playlist adds with Milestones.
-                        Discover all the ways to showcase content on Apple Music — including
-                        MusicKit, RSS feeds, widgets, brand guidelines, badge art, and more.
-                    </p>
-
-                    <div className="flex flex-wrap items-center justify-center gap-[24px] text-[14px] text-blue-600">
-                        <a href="#" className="hover:underline inline-flex items-center">
-                            Apple Music for Artists
-                            <IoChevronForward className="text-[12px] ml-[2px]" />
-                        </a>
-
-                        <a href="#" className="hover:underline inline-flex items-center">
-                            Apple Performance Partners Program
-                            <IoChevronForward className="text-[12px] ml-[2px]" />
-                        </a>
-                    </div>
-                </div>
-            </div>
+         
 
         </div>
     );

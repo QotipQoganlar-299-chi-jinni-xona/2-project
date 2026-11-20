@@ -33,7 +33,7 @@ const MusicNotes = () => {
 
       <div className="container mx-auto w-[95%] max-w-[980px] py-[24px] border-b border-gray-300 flex flex-col gap-[8px]">
         <p>* New subscribers only. $10.99/month after free trial. Plan automatically renews until cancelled.</p>
-        <p>◊ New subscribers only. Offer is available for new Apple Music subscribers with a new eligible device.</p>
+        <p>* New subscribers only. Offer is available for new Apple Music subscribers with a new eligible device.</p>
         <p>1. Compatible hardware and software required. Not all content available in Spatial Audio.</p>
         <p>2. Lossless audio available up to 24-bit/192 kHz.</p>
         <p>3. The Apple One free trial includes only services that you are not currently using.</p>

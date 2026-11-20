@@ -2,7 +2,7 @@ import React from 'react'
 import img from "../assets/Container.png"
 const MainIphone16M = () => {
   return (
-    <div>
+    <div className='pt-[100px]'>
       <div className='max-w-full w-[85%] mx-auto'>
         <div className='flex items-center justify-center gap-[800px]'>
           <p className='text-[60px] font-bold'>iPhone</p>

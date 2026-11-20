@@ -4,6 +4,7 @@ import MusicOffers from "../Components/MusicOffersX";
 import AudioQuality from "../Components/AudioQualityX";
 import MusicDevices from "../Components/MusicDevicesX";
 import MusicPlans from "../Components/MusicPlansX";
+import Question from "../Components/QuestionX";
 
 const MusicX = () => {
     return (
@@ -16,6 +17,7 @@ const MusicX = () => {
                 <AudioQuality />
                 <MusicDevices />
                 <MusicPlans />
+                <Question/>
 
 
             </main>

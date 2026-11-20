@@ -63,14 +63,6 @@ const Home = () => {
       <p>Learn about the latest features and how to go further with your Apple devices.</p>
       <a href="#">Sign up ›</a>
     </section>
-  </div>
-
-
-)
-
-
-const Home = () => {
-  return (
     <div className="home-container">
       <section className="top-grid">
         <div className="card get-support">
@@ -143,8 +135,10 @@ const Home = () => {
         </div>
       </section>
     </div>
-  );
-};
+  </div>
+
+
+)
 }
 
-export default Home
+export default Home;

@@ -4,6 +4,15 @@ import { AiFillApple } from "react-icons/ai";
 const SectionMusicX = () => {
     return (
         <div>
+            <div className="text-center mt-2 bg-gradient-to-r from-purple-300 to-pink-500 p-5">
+                <p className="text-[14px] text-black leading-[20px]">
+                    For a limited time, get 3 months of Apple Music free.
+                    <span className="cursor-pointer text-[14px] leading-[20px] text-[#0066CC] ml-2">
+                        <a href="#" >*Start your trial</a>
+                    </span>
+                </p>
+            </div>
+            
             <section className="w-full min-h-[540px] md:min-h-[620px] flex items-center justify-center text-white py-16 md:py-24  bg-linear-65 from-purple-300 to-pink-500">
                 <div className="container mx-auto w-[95%] md:max-w-3xl text-center flex flex-col items-center">
 

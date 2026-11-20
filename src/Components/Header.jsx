@@ -6,13 +6,14 @@ import {
   AiOutlineMenu,
   AiOutlineClose,
 } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="text-sm mt-5">
-      <div className="container mx-auto w-[95%] flex items-center justify-between h-12">
+    <header className="text-sm pt-5 bg-black text-white">
+      <div className="container mx-auto w-[90%] flex items-center justify-between h-12">
         <AiFillApple className="text-xl" />
 
         <ul className="hidden md:flex gap-5">
@@ -23,7 +24,9 @@ const Header = () => {
           <li>Watch</li>
           <li>Vision</li>
           <li>AirPods</li>
-          <li>TV & Home</li>
+          <li>
+            <Link to="/TV-Home">TV & Home</Link>
+          </li>
           <li>Entertainment</li>
           <li>Accessories</li>
           <li>Support</li>

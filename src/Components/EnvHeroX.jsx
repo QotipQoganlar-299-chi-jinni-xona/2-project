@@ -44,27 +44,27 @@ const EnvHero = () => {
         <div className="container mx-auto w-[95%] max-w-[680px] flex flex-col gap-[28px] text-center text-[18px] sm:text-[22px] font-semibold leading-relaxed text-gray-800">
           <p>
             We are committed to protecting the planet. And designing products
-            you love.{" "}
+            you love.
             <span className="underline decoration-emerald-500 decoration-[3px] underline-offset-[4px]">
               Apple 2030
-            </span>{" "}
+            </span>
             is our plan to do both.
           </p>
 
           <p>
             By focusing on recycled and renewable materials, clean electricity,
-            and low-carbon shipping, we’re working to bring our{" "}
+            and low-carbon shipping, we’re working to bring our
             <span className="underline decoration-emerald-500 decoration-[3px] underline-offset-[4px]">
               net emissions to zero
-            </span>{" "}
+            </span>
             across our entire carbon footprint.
           </p>
 
           <p>
-            We’re sharing our progress — and the work that remains — so you can{" "}
+            We’re sharing our progress — and the work that remains — so you can
             <span className="underline decoration-emerald-500 decoration-[3px] underline-offset-[4px]">
               join us
-            </span>{" "}
+            </span>
             on this journey.
           </p>
         </div>

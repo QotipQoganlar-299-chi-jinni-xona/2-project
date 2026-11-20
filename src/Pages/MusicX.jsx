@@ -6,6 +6,7 @@ import MusicDevices from "../Components/MusicDevicesX";
 import MusicPlans from "../Components/MusicPlansX";
 import Question from "../Components/QuestionX";
 import MusicNotes from "../Components/MusicNotesX";
+import Footer from "../Components/FooterX";
 
 const MusicX = () => {
     return (
@@ -21,8 +22,8 @@ const MusicX = () => {
                 <Question/>
                 <MusicNotes/>
 
-
             </main>
+            <Footer/>
         </div>
     );
 };

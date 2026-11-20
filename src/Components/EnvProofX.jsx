@@ -7,13 +7,12 @@ const EnvProofX = () => {
   return (
     <section className="w-full py-[64px] md:py-[96px] bg-white text-black">
       <div className="container mx-auto w-[95%] max-w-[1140px]">
-        {/* 1-qism: The proof is in our products */}
         <div className="max-w-[580px] mb-[40px]">
           <h2 className="text-[32px] sm:text-[44px] md:text-[52px] font-bold leading-[1.1] mb-[16px]">
-            The{" "}
-            <span className="underline decoration-emerald-500 decoration-[3px] underline-offset-[6px]">
+            The
+            <span className="underline decoration-emerald-500 decoration-[3px] underline-offset-[6px] ml-3">
               proof
-            </span>{" "}
+            </span>
             is in our products.
           </h2>
 

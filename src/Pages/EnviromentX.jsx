@@ -3,6 +3,7 @@ import Footer from '../Components/FooterX'
 import EnvHero from '../Components/EnvHeroX'
 import EnvApproachX from '../Components/EnvApproachX'
 import EnvProofX from '../Components/EnvProofX'
+import EnvReportsX from '../Components/EnvReportsX'
 
 const EnviromentX = () => {
     return (
@@ -12,6 +13,7 @@ const EnviromentX = () => {
                 <EnvHero/>
                 <EnvApproachX/>
                 <EnvProofX/>
+                <EnvReportsX/>
             </main>
 
 

@@ -35,7 +35,15 @@ const Durable = () => {
                 <div className="absolute bottom-[5%] right-0 text-[11px]">
                     Splash, water, and dust resistant.⁷
                 </div>
+            </div>
 
+            <div>
+                <div className=' p-[100px]'>
+                    <h1 className='flex justify-center'>Strength meets style. iPhone 16 comes in five vibrant
+                        colors,<br /> from black to ultramarine.</h1>
+                    <img src="https://mini-io-api.texnomart.uz/catalog/product/3580/358031/206855/a7e6640d-54e8-4e1f-86af-1131d8244aaa.webp" alt="" />
+                </div>
+                
             </div>
         </div>
     )

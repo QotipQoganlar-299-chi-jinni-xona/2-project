@@ -8,6 +8,12 @@ import MainLineup from './Components/MainLineup'
 import MainIphone from './Pages/MainIphone'
 import MainLine from './Pages/MainLine'
 import MainImg from './Components/MainImg'
+import MainApple from './Components/MainApple'
+import MainEssentialsM from './Components/MainEssentialsM'
+import MainSignificantM from './Components/MainSignificantM'
+import MainExploreiPhoneM from './Components/MainExploreiPhoneM'
+import MainPricingM from './Components/MainPricingM'
+import MFooterM from './Components/MFooterM'
 
 const App = () => {
   return (
@@ -17,6 +23,12 @@ const App = () => {
       <MainGet />
       <MainLineup />
       <MainImg/>
+      <MainApple/>
+      <MainEssentialsM/>
+      <MainSignificantM/>
+      <MainExploreiPhoneM/>
+      <MainPricingM/>
+      <MFooterM/>
 
 
       <Routes>

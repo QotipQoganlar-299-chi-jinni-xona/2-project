@@ -14,6 +14,13 @@ import MainSignificantM from './Components/MainSignificantM'
 import MainExploreiPhoneM from './Components/MainExploreiPhoneM'
 import MainPricingM from './Components/MainPricingM'
 import MFooterM from './Components/MFooterM'
+import MainFooterM from './Pages/MainFooterM'
+import MainAppl from './Pages/MainAppl'
+import MainEssentM from './Pages/MainEssentM'
+import Mainimgg from './Pages/Mainimgg'
+import MainSign from './Pages/MainSign'
+import MainExplorei from './Pages/MainExplorei'
+import MainPrinching from './Pages/MainPrinching'
 
 const App = () => {
   return (
@@ -36,6 +43,14 @@ const App = () => {
         <Route path='/Ger' element={<MainGet />} />
         <Route path='/Iph' element={<MainIphone />} />
         <Route path='/Line' element={<MainLine />} />
+        <Route path='/FooterM' element={<MainFooterM />} />
+        <Route path='/Appl' element={<MainAppl/>} />
+        <Route path='/EssentM' element={<MainEssentM />} />
+        <Route path='/imgg' element={<Mainimgg />} />
+        <Route path='/Sign' element={<MainSign />} />
+        <Route path='/Explorei' element={<MainExplorei/>} />
+        <Route path='/Prinching' element={<MainPrinching/>} />
+
       </Routes>
     </div>
   )

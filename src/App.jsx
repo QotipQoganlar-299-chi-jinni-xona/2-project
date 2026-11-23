@@ -1,9 +1,7 @@
-import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home'
 import Header from './Components/Header'
 import Ossoni from './Components/Ossoni'
-
 const App = () => {
   return (
     <div>
@@ -14,16 +12,10 @@ const App = () => {
       <main>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/Iphone16' element={<Ossoni />} />
+          <Route path='/Ossoni' element={<Ossoni />} />
         </Routes>
       </main>
 
-
-
-      <Routes>
-        <Route path='/' element={<Home />} />
-
-      </Routes>
     </div>
   )
 }

@@ -15,7 +15,7 @@ const AkromF = () => {
                         <div class="space-y-9">
 
                             <div class="flex flex-col items-center gap-4">
-                                <div class="border-2 border-[#333] rounded-md px-2 py-1 text-[10px] font-bold">M4</div>
+                                <div class="border-2 border-[#333] rounded-md px-2 py-1 text-[10px] font-bold">M4</div>
                                 <p class="text-[10px]">M4 chip</p>
                             </div>
 
@@ -37,14 +37,14 @@ const AkromF = () => {
                                     <div class="w-1 h-8 border border-black rounded"></div>
                                 </div>
                                 <p class="text-[10px]">Supports Apple Pencil Pro</p>
-                                <p class="text-[10px]">Supports Apple Pencil (USB-C)</p>
+                                <p class="text-[10px]">Supports Apple Pencil USB-C</p>
                             </div>
 
                             <div class="flex flex-col items-center gap-3">
                                 <div class="w-10 h-7 border-2 border-[#333] rounded-md flex items-center justify-center">
                                     <span class="text-xs">▦</span>
                                 </div>
-                                <p class="text-[10px]">Supports Magic Keyboard for iPad Pro (M4)</p>
+                                <p class="text-[10px]">Supports Magic Keyboard for iPad Pro M4</p>
                             </div>
 
                         </div>
@@ -76,7 +76,7 @@ const AkromF = () => {
                                     <div class="w-1 h-8 border border-black rounded"></div>
                                 </div>
                                 <p class="text-[10px]">Supports Apple Pencil Pro</p>
-                                <p class="text-[10px]">Supports Apple Pencil (USB-C)</p>
+                                <p class="text-[10px]">Supports Apple Pencil </p>
                             </div>
 
                             <div class="flex flex-col items-center gap-3">
@@ -114,8 +114,8 @@ const AkromF = () => {
                                     <div class="w-1 h-8 border border-black rounded"></div>
                                     <div class="w-1 h-8 border border-black rounded"></div>
                                 </div>
-                                <p class="text-[10px]">Supports Apple Pencil (USB-C)</p>
-                                <p class="text-[10px]">Supports Apple Pencil (1st generation)</p>
+                                <p class="text-[10px]">Supports Apple Pencil </p>
+                                <p class="text-[10px]">Supports Apple Pencil</p>
                             </div>
 
                             <div class="flex flex-col items-center gap-3">

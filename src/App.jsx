@@ -20,6 +20,8 @@ const App = () => {
           <Route path='/environment' element={<EnviromentX />} />
 
           <Route path='/TV-Home' element={<TVHome />} />
+          <Route path='/AppleArcade' element={<AppleArcade />} />
+
         </Routes>
       </main>
 

@@ -26,6 +26,7 @@ import MainSign from './Pages/MainSign'
 import MainExplorei from './Pages/MainExplorei'
 import MainPrinching from './Pages/MainPrinching'
 import FooterMM from './Components/FooterMM'
+import Akrom from './Pages/Akrom.jsx'
 
 const App = () => {
   return (
@@ -39,38 +40,24 @@ const App = () => {
           <Route path='/' element={<Home />} />
           <Route path="/music" element={<MusicX />} />
           <Route path='/environment' element={<EnviromentX />} />
-
           <Route path='/TV-Home' element={<TVHome />} />
           <Route path='/AppleArcade' element={<AppleArcade />} />
+          <Route path='/AppleArcade' element={<Akrom />} />
+          <Route path='/Ger' element={<MainGet />} />
+          <Route path='/Iph' element={<MainIphone />} />
+          <Route path='/Line' element={<MainLine />} />
+          <Route path='/FooterM' element={<MainFooterM />} />
+          <Route path='/Appl' element={<MainAppl />} />
+          <Route path='/EssentM' element={<MainEssentM />} />
+          <Route path='/imgg' element={<Mainimgg />} />
+          <Route path='/Sign' element={<MainSign />} />
+          <Route path='/Explorei' element={<MainExplorei />} />
+          <Route path='/Prinching' element={<MainPrinching />} />
 
         </Routes>
       </main>
-      <Header />
-      <MainIphone16M />
-      <MainGet />
-      <MainLineup />
-      <MainImg/>
-      <MainApple/>
-      <MainEssentialsM/>
-      <MainSignificantM/>
-      <MainExploreiPhoneM/>
-      <MainPricingM/>
-      <FooterMM/>
 
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/Ger' element={<MainGet />} />
-        <Route path='/Iph' element={<MainIphone />} />
-        <Route path='/Line' element={<MainLine />} />
-        <Route path='/FooterM' element={<MainFooterM />} />
-        <Route path='/Appl' element={<MainAppl/>} />
-        <Route path='/EssentM' element={<MainEssentM />} />
-        <Route path='/imgg' element={<Mainimgg />} />
-        <Route path='/Sign' element={<MainSign />} />
-        <Route path='/Explorei' element={<MainExplorei/>} />
-        <Route path='/Prinching' element={<MainPrinching/>} />
 
-      </Routes>
     </div>
   )
 }

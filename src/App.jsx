@@ -1,4 +1,3 @@
-import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home'
 import TVHome from './Pages/AppleTV.jsx'
@@ -27,6 +26,8 @@ import MainExplorei from './Pages/MainExplorei'
 import MainPrinching from './Pages/MainPrinching'
 import FooterMM from './Components/FooterMM'
 import Akrom from './Pages/Akrom.jsx'
+import Muhammadjon123 from './Pages/Muhammadjon123'
+
 
 const App = () => {
   return (
@@ -54,9 +55,9 @@ const App = () => {
           <Route path='/Explorei' element={<MainExplorei />} />
           <Route path='/Prinching' element={<MainPrinching />} />
 
+          <Route path='/Ossoni' element={<Muhammadjon123 />} />
         </Routes>
       </main>
-
 
     </div>
   )

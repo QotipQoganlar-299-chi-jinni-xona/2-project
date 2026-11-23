@@ -11,8 +11,8 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="text-sm mt-5">
-      <div className="container mx-auto w-[95%] flex items-center justify-between h-12">
+    <header className="text-sm pt-[20px] bg-black text-amber-50">
+      <div className="container mx-auto w-[85%] flex items-center justify-between h-12">
         <AiFillApple className="text-xl" />
 
         <ul className="hidden md:flex gap-5">

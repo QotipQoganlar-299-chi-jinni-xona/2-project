@@ -1,15 +1,6 @@
-import React from 'react'
+import React from 'react';
+import MainIbo from '../Components/main.ibo';
 
-const Home = () => {
-  return (
-    <div>   
-
-
-
-
-   
-    </div>
-  )
+export default function Home() {
+  return <MainIbo />;
 }
-
-export default Home

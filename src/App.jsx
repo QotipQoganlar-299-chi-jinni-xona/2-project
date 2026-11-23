@@ -1,7 +1,9 @@
 import { Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home'
 import Header from './Components/Header'
-import Ossoni from './Components/Ossoni'
+import Muhammadjon123 from './Pages/Muhammadjon123'
+
+
 const App = () => {
   return (
     <div>
@@ -12,7 +14,7 @@ const App = () => {
       <main>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/Ossoni' element={<Ossoni />} />
+          <Route path='/Ossoni' element={<Muhammadjon123 />} />
         </Routes>
       </main>
 

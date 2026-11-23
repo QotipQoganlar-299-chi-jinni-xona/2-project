@@ -13,7 +13,7 @@ import MainEssentialsM from './Components/MainEssentialsM'
 import MainSignificantM from './Components/MainSignificantM'
 import MainExploreiPhoneM from './Components/MainExploreiPhoneM'
 import MainPricingM from './Components/MainPricingM'
-import MFooterM from './Components/MFooterM'
+import MFooterM from './Components/FooterMM'
 import MainFooterM from './Pages/MainFooterM'
 import MainAppl from './Pages/MainAppl'
 import MainEssentM from './Pages/MainEssentM'
@@ -21,6 +21,7 @@ import Mainimgg from './Pages/Mainimgg'
 import MainSign from './Pages/MainSign'
 import MainExplorei from './Pages/MainExplorei'
 import MainPrinching from './Pages/MainPrinching'
+import FooterMM from './Components/FooterMM'
 
 const App = () => {
   return (
@@ -35,8 +36,7 @@ const App = () => {
       <MainSignificantM/>
       <MainExploreiPhoneM/>
       <MainPricingM/>
-      <MFooterM/>
-
+      <FooterMM/>
 
       <Routes>
         <Route path='/' element={<Home />} />

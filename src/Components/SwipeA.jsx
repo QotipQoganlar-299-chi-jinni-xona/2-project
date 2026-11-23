@@ -21,7 +21,6 @@ const PictureSwipe = () => {
 
   return (
     <div className="relative w-full bg-black py-8 select-none">
-      {/* Chapga tugma */}
       <button
         type="button"
         onClick={() => handleScroll('prev')}
@@ -31,7 +30,6 @@ const PictureSwipe = () => {
         ❮
       </button>
 
-      {/* O'ngga tugma */}
       <button
         type="button"
         onClick={() => handleScroll('next')}
@@ -41,13 +39,12 @@ const PictureSwipe = () => {
         ❯
       </button>
 
-      {/* daisyUI Carousel */}
       <div
         ref={carouselRef}
         className="carousel carousel-center w-full space-x-4 sm:space-x-6 px-6 sm:px-16 scroll-smooth"
       >
         {/* 1-rasm */}
-        <div className="carousel-item relative w-[78%] xl:w-[70%] sm:w-[55%] md:w-[36%] h-[440px] sm:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
+        <div className="carousel-item relative w-[78%] xl:w-[70%] sm:w-[55%] lg:w-[45%] h-[440px] sm:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
           <img
             src={firstPicture}
             alt="First picture"
@@ -87,7 +84,7 @@ const PictureSwipe = () => {
         </div>
 
         {/* 2-rasm */}
-        <div className="carousel-item relative w-[78%] xl:w-[70%] sm:w-[55%] md:w-[36%] h-[440px] sm:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
+        <div className="carousel-item relative w-[78%] xl:w-[70%] sm:w-[55%] lg:w-[45%] h-[440px] sm:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
           <img
             src={secondPicture}
             alt="Second picture"
@@ -127,7 +124,7 @@ const PictureSwipe = () => {
         </div>
 
         {/* 3-rasm */}
-        <div className="carousel-item relative w-[78%] xl:w-[70%] sm:w-[55%] md:w-[36%] h-[440px] sm:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
+        <div className="carousel-item relative w-[78%] xl:w-[70%] sm:w-[55%] lg:w-[45%] h-[440px] sm:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
           <img
             src={thirdPicture}
             alt="Third picture"

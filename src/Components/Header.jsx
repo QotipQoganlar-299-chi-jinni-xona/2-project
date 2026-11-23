@@ -7,7 +7,7 @@ import {
   AiOutlineMenu,
   AiOutlineClose,
 } from 'react-icons/ai';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [open, setOpen] = useState(false);
